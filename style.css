@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Vast+Shadow&display=swap");
 
-button,
-p {
+body {
+  min-height: 100vh;
+  display: grid;
+  align-content: space-between;
+  justify-items: center;
   font-family: "Roboto", sans-serif;
 }
 
 main {
   max-width: 850px;
-  margin: auto;
   text-align: center;
 }
 
@@ -22,6 +24,20 @@ h1 {
 p {
   font-size: 1.25rem;
   font-weight: 500;
+}
+
+.buttons {
+  margin: auto;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  font-size: 1.25rem;
+  padding: 0.5em 1em;
+  border-radius: 10px;
 }
 
 .paper {
@@ -57,18 +73,18 @@ p {
   font-style: italic;
 }
 
-.buttons {
-  margin: auto;
-  max-width: 400px;
-  display: flex;
-  justify-content: space-between;
+footer {
+  padding-bottom: 1em;
+  text-align: center;
 }
 
-button {
-  border: none;
-  font-size: 1.25rem;
-  padding: 0.5em 1em;
-  border-radius: 10px;
+footer p {
+  font-size: 1rem;
+}
+
+.logo {
+  width: 13%;
+  transform: translateY(40%);
 }
 
 @media screen and (min-width: 400px) {
