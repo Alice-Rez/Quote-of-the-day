@@ -1,5 +1,7 @@
 # Quote of the day
 
+[Live demo](https://alice-rez.github.io/Quote-of-the-day/)
+
 ## Description
 
 Application that get quotes from API and display them with different level of randomization. User can choose, witch level of randomization he want to use by clicking on respective button:
