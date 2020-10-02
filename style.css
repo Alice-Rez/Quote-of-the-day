@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Vast+Shadow&display=swap");
+
+button,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Vast Shadow", cursive;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.paper {
+  max-width: 800px;
+  min-height: 300px;
+  margin: 1.5em 3vw;
+  background-image: url("https://image.architonic.com/img_pro2-4/155/9160/dd110306-b.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding: 1em 2em;
+
+  display: grid;
+  place-items: center;
+}
+
+.board {
+  color: white;
+  font-size: 2rem;
+  font-family: "Merienda", cursive;
+}
+
+.author-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.author {
+  color: white;
+  margin-top: 0;
+  font-size: 1.75rem;
+  font-style: italic;
+}
+
+.buttons {
+  margin: auto;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  font-size: 1.25rem;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 400px) {
+  p {
+    font-size: 1.5rem;
+  }
+
+  .board {
+    font-size: 2.5rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  button {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .board {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
