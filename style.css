@@ -40,6 +40,13 @@ button {
   border-radius: 10px;
 }
 
+.loader {
+  color: white;
+}
+figcaption {
+  margin-top: 1em;
+}
+
 .paper {
   max-width: 800px;
   min-height: 300px;

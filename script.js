@@ -1,3 +1,4 @@
+let loader = document.querySelector(".loader");
 let board = document.getElementById("board");
 let author = document.getElementById("author");
 let buttonLow = document.getElementById("low-level");
@@ -14,6 +15,7 @@ fetch("https://philosophy-quotes-api.glitch.me/quotes")
     return res.json();
   })
   .then((jsonData) => {
+    loader.style.display = "none";
     quotes = jsonData;
 
     board.textContent = `${getQuote(quotes).quote}`;
