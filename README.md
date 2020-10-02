@@ -16,7 +16,7 @@ Change of the level of randomization is immediate, but it can take time till he 
 
 Used API from [Karan Dahiya](https://github.com/KaranDahiya/philosophy-quotes-API).
 
-**Used technologies**: asynchronous Javascript (fetch)
+**Used technologies**: DOM, asynchronous Javascript (fetch), API, 
 
 The main function ( _getQuote(array,level)_ ) for all of the levels is same. Which type of randomization will be used depends on which argument we insert for level (options are _high_, _medium_ and _low_) - this determines,which additional part of code will be used (default case is high level).
 
