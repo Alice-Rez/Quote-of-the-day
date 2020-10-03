@@ -81,6 +81,7 @@ figcaption {
 }
 
 footer {
+  width: 100%;
   padding-bottom: 1em;
   text-align: center;
 }
@@ -90,7 +91,7 @@ footer p {
 }
 
 .logo {
-  width: 13%;
+  width: 2%;
   transform: translateY(40%);
 }
 
