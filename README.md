@@ -1,4 +1,4 @@
- <img align="center" src="./title.png" width="100%">
+ <h1><img align="center" src="./title.png" width="100%"> </h1>
 
 ## Description
 
