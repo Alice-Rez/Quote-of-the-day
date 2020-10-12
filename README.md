@@ -2,7 +2,7 @@
 
 ## Description
 
-<img align="right" src="./image.png" width="60%">
+<img align="right" src="./image.png" width="50%">
 
 [Live demo](https://alice-rez.github.io/Quote-of-the-day/)
 
